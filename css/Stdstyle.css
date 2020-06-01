@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444;
+    font-family: sans-serif;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.login
+{
+    text-align: center;
+    position: relative;
+    width: 280px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+input
+{
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+}
+input[type="email"],
+input[type="password"]
+{
+    margin-bottom: 20px;
+    border-bottom: 2px solid;
+    padding: 12px 40px 12px 20px;
+}
+.group
+{
+    margin-bottom: 10px;
+    position: relative;
+}
+.group i
+{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+input[type="submit"]
+{
+    margin-top: 10px;
+    height: 40px;
+    background-image: linear-gradient(to right, firebrick, darkred);
+    color:#fff;
+    font-size: 18px;
+}
+.login p
+{
+    margin: 20px 0;
+    
+}
+i.fa.fa-user-secret
+{
+    font-size: 70px;
+    margin-top: -60px;
+    color:darkred;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+h2
+{
+    margin-bottom: 20px;
+}
+input:focus, input:focus::placeholder, input:focus+i
+{
+    color: #ff1464;
+    outline: none;
+}
+body:before, body:after
+{
+    position: absolute;
+    content: "";
+    height: 300px;
+    width: 500px;
+}
+body:before
+{
+    background-image: linear-gradient(to right, #ff1464, purple);
+    bottom: 0;
+    left: 0;
+    clip-path:polygon(0 0, 0 100%, 100% 100%);
+}
+body:after
+{
+    background-image: linear-gradient(to right, purple, #ff1464);
+    top: 0;
+    right: 0;
+    clip-path:polygon(100% 0, 0 0, 100% 100%);
+}
+@media (max-width:767px)
+{
+   body:before, body:after
+   {
+    height: 150px;
+    width: 300px;
+   }  
+}

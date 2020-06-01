@@ -1,0 +1,28 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#result
+{
+    background-color: cadetblue;
+}
+.result-box
+{
+    background-color: firebrick;
+    margin-top: 10px;
+}
+.result-box h3
+{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.result
+{
+    margin: 20px 0px;;
+}
+.result p
+{
+    font-weight: 600;
+}

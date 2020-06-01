@@ -1,0 +1,68 @@
+/*--------------------Admin Home-------------------------*/
+.aname
+            {
+                text-transform:none;
+            }
+            
+/*--------------------Faculty registration---------------*/
+            .aname
+            {
+                text-transform:none;
+            }
+
+            #faculty_reg h2
+            {
+                background-color: dodgerblue;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+            #faculty_reg label
+            {
+                margin: 10px 0px;
+            }
+            .bg input
+            {
+                margin: 10px 0px;
+                outline: none;
+                border: none;
+                border-bottom: 1px solid #9e9e9e;
+                background-color: transparent;
+            }
+            .bg input:focus
+            {
+                margin: 10px 0px;
+                outline: none;
+                background-color: transparent;
+            }
+            .bg input[type="submit"]
+            {
+                margin: 10px 0px;
+                padding: 10px;
+                width: 130px;
+                border: none;
+                color: #fff;
+                background-image:  linear-gradient(56deg, #4776e6, #8e54e9);
+            }
+            .bg select
+            {
+                background-color: transparent;
+                border: none;
+                border-bottom: 1px solid #9e9e9e;
+            }
+            @media only screen and (max-width: 767px){
+                .bg input[type="text"], 
+                .bg input[type="email"]
+                {border: 1px solid #ccc; outline: none;}
+                .bg span
+                {
+                    display: none;
+                }
+            }
+        @media only screen and (max-width: 480px){
+              .bg input[type="text"], .bg input[type="email"]{border: 1px solid #ccc; outline: none;}
+                .bg span
+                {
+                    display: none;
+                }
+            }

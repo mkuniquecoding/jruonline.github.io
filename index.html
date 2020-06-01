@@ -1,0 +1,467 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="img/favicon.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Insert to your webpage before the </head> -->
+        <script src="sliderengine/jquery.js"></script>
+        <script src="sliderengine/amazingslider.js"></script>
+        <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+        <script src="sliderengine/initslider-1.js"></script>
+        <!-- End of head section HTML codes -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <script src="css/lightbox-plus-jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .more-view
+            {
+                margin: 20px 0px;
+            }
+            .more-view input[type="button"]
+            {
+                height: 60px;
+                width: 180px;
+                text-align: center;
+                color: #fff;
+                background-image:  linear-gradient(56deg, #8e54e9, #4776e6);
+            }
+        </style>
+    </head>
+    <body>
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#" style="color: white;">jru-online</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="result.php">result</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          check
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Status</a>
+          <a class="dropdown-item" href="#">Profile</a>
+          <a class="dropdown-item" href="#">Gallary</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="stdservice.php">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="Gologin.html"><i class="fa fa-sign-in"></i> Login</a>
+      </li> 
+    </ul>
+  </div>
+</nav>
+        </section>
+        <section id="banner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="banner">
+                           <img src="img/img1.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="banner-title">
+                            <h1>Welcome to jru-online</h1>
+                            <p>University aims to create a knowledge pool for the State of Jharkhand by serving the needs of diverse communities. JRU continuously strives to provide quality education to its students through dynamic research, rigorous training and efficient mentorship</p>
+                        </div>
+                        <div class="video-play">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 about">
+                        <img src="img/about.png">
+                    </div>
+                    <div class="col-md-6 about-tag">
+                        <h1>About Us</h1>
+                        <p>Jharkhand Rai University (JRU) has been established under "Jharkhand Rai University Act, 2011" by Jharkhand State Legislature as per section 2(f) of UGC Act 1956. JRU is also a member of Association of Indian Universities (AIU), Association of Commonwealth Universities - London and an ISO certified University, (ISO 9001:2015). University aims to create a knowledge pool for the State of Jharkhand by serving the needs of diverse communities. JRU continuously strives to provide quality education to its students through dynamic research, rigorous training and efficient mentorship. The University offers Diplomas, Undergraduate Degrees, Postgraduate Degrees and Doctoral programs in different disciplines. JRU is the only private University in the state of Jharkhand approved by NAAC.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="about"></div>
+        </section>
+        <!-------------------------Services---------------------------->
+        <section id="service" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/services.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 service">
+                        <h1>Services</h1>
+                        <div class="row">
+                            <div class="col-md-3 col-sn-6 col-6 service-box" align="center">
+                                <div class="service-contant">
+                                    <img src="img/result.png">
+                                    <h3>Check Result</h3>
+                                    <p>Check examination results online/Online result display. Any Student of JRU can see the result online through this portal.
+</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sn-6 col-6 service-box" align="center">
+                                <div class="service-contant">
+                                    <i class="fa fa-book"></i>
+                                    <h3>Attendence</h3>
+                                    <p>This is an Online Student Attendance Management System for educational institutions that maintains a quick and accurate record of attendance of students.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sn-6 col-6 service-box" align="center">
+                                <div class="service-contant">
+                                    <i class="fa fa-paper-plane-o"></i>
+                                    <h3>Online Leave</h3>
+                                    <p>The Leave Management System (LMS) is an Intranet based application that can be accessed throughout the organization or a specified group/Dept. This system can be used to automate the workflow of leave applications and their approvals.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sn-6 col-6 service-box" align="center">
+                                <div class="service-contant">
+                                    <i class="fa fa-file-text"></i>
+                                    <h3>Feedback Form</h3>
+                                    <p>E-Notice board is a web application which is engaged in providing up-to-date articles & notices and other information's for all the users associated with the particular campus or organization.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------Notice------------------->
+        <section id="notice">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="notice" align=center>
+                            <img src="img/notice.png">
+                        </div>
+                    </div>
+                    <div class="col-md-4" align=center>
+                        <h1>E - Notice Board</h1>
+                        <div class="notice-slider">
+                            
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </section>
+        <!---------------------- Counters---------------->
+        <section id="counters">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <div class="start-items">
+                            <h2><span class="counter">1200</span> <span class="plus">+</span></h2>
+                            <p>Students</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="start-items">
+                            <h2><span class="counter">250</span> <span class="plus">+</span></h2>
+                            <p>Faculties</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="start-items">
+                            <h2><span class="counter">400</span> <span class="plus">+</span></h2>
+                            <p>Passout Student</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="start-items">
+                            <h2><span class="counter">50</span> <span class="plus">+</span></h2>
+                            <p>Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="css/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js"></script>
+        <script src="css/Counter-Up-master/jquery.counterup.min.js"></script>
+        <script>
+            jQuery(document).ready(function(){
+                $('.counter').counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+            })
+        </script>
+        <!-----------------------testimonial---------------------------->
+        <section id="testimonials">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Testimonials</h1>
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <h3 class="testimonial-title">Anuradha Sharma</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula turpis non est imperdiet, et facilisis nisl tempus. Donec nec. </p>
+                    <span class="post">Guidance</span>
+                    <div class="pic">
+                        <img src="img/testimonial1.jpg" alt="">
+                    </div>
+                </div>
+ 
+                <div class="testimonial">
+                    <h3 class="testimonial-title">Mithun Kumar</h3>
+                    <p class="description">Experiences at JRU have been wonderful and enriching.JRU campus has acted as a source of motivation for me, and consists of all the necessary amenities which are useful for overall development.</p>
+                    <span class="post">Web Developer</span>
+                    <div class="pic">
+                        <img src="img/testimonial2.jpg" alt="">
+                    </div>
+                </div>
+ 
+                <div class="testimonial">
+                    <h3 class="testimonial-title">Dr. Sanjay Panday</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula turpis non est imperdiet, et facilisis nisl tempus. Donec nec. </p>
+                    <span class="post">Guidance</span>
+                    <div class="pic">
+                        <img src="img/testimonial3.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <h3 class="testimonial-title">Gita Kumari</h3>
+                    <p class="description">As a student of JRU, I am nourished with discipline and education. It gives me a platform to develop my skills and thus I can proudly face competition in future. Thank You JRU!!! </p>
+                    <span class="post">Web Designer</span>
+                    <div class="pic">
+                        <img src="img/testimonial4.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <h3 class="testimonial-title">Sulaxmi Kumari</h3>
+                    <p class="description">I have experienced a very friendly environment. The faculty members are well qualified. The different activities apart from classroom lectures enhance our skills and talents.</p>
+                    <span class="post">Web Designer</span>
+                    <div class="pic">
+                        <img src="images/img-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </section>
+        <!---------------------------Contact------------------->
+        <section id="contact-form" style="background-attachment: fixed">
+            <div class="container">
+                <div class="row forms">
+                     <div class="col-md-12"><h1>Contact Me</h1></div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" placeholder="Contact">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-md-12" align=center>
+                        <input type="submit" value="Send Message">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------Faculties(Team Area--------------------->
+        <section class="team_area p_120">
+        	<div class="container">
+        		
+        		<div class="row team_inner">
+                    <div class="col-md-12">
+                        <div class="main_title">
+        			<h2>Meet Our Faculty</h2>
+        		      </div>
+                    </div>
+        			<div class="col-lg-3 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/team/team1.png" alt="">
+        						<div class="hover">
+        							<a href="#"><i class="fa fa-facebook"></i></a>
+        							<a href="#"><i class="fa fa-twitter"></i></a>
+        							<a href="#"><i class="fa fa-linkedin"></i></a>
+        						</div>
+        					</div>
+        					<div class="team_name">
+        						<h4>Dr. Sanjay panday</h4>
+        						<p>CMC department Head</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/team/team2.png" alt="">
+        						<div class="hover">
+        							<a href="#"><i class="fa fa-facebook"></i></a>
+        							<a href="#"><i class="fa fa-twitter"></i></a>
+        							<a href="#"><i class="fa fa-linkedin"></i></a>
+        						</div>
+        					</div>
+        					<div class="team_name">
+        						<h4>Anuradha Sharama</h4>
+        						<p>HOD of CS & IT</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/team/team3.png" alt="">
+        						<div class="hover">
+        							<a href="#"><i class="fa fa-facebook"></i></a>
+        							<a href="#"><i class="fa fa-twitter"></i></a>
+        							<a href="#"><i class="fa fa-linkedin"></i></a>
+        						</div>
+        					</div>
+        					<div class="team_name">
+        						<h4>Kumar Amerandra</h4>
+        						<p>Cultural Club Head</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-sm-6">
+        				<div class="team_item">
+        					<div class="team_img">
+        						<img class="rounded-circle" src="img/team/team4.png" alt="">
+        						<div class="hover">
+        							<a href="#"><i class="fa fa-facebook"></i></a>
+        							<a href="#"><i class="fa fa-twitter"></i></a>
+        							<a href="#"><i class="fa fa-linkedin"></i></a>
+        						</div>
+        					</div>
+        					<div class="team_name">
+        						<h4>Dr. Piyush Ranjan</h4>
+        						<p>University Registrar</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Team Area =================-->
+        <section id="gallary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="gallary">
+                            <h1>Gallary</h1>
+                            <a href="img/gallary/bimg1.jpg" data-lightbox="jru Online" data-title="JRU gallary"><img src="img/gallary/img1.jpg"></a> 
+                            <a href="img/gallary/bimg2.jpg" data-lightbox="jru Online" data-title="JRU gallary"><img src="img/gallary/img2.jpg"></a>
+                            <a href="img/gallary/bimg3.jpg" data-lightbox="jru Online" data-title="JRU gallary"><img src="img/gallary/img3.jpg"></a>
+                            <a href="img/gallary/bimg4.jpg" data-lightbox="jru Online" data-title="JRU gallary"><img src="img/gallary/img4.jpg"></a>
+                            <a href="img/gallary/bimg5.jpg" data-lightbox="jru Online" data-title="JRU gallary"><img src="img/gallary/img5.jpg"></a>
+                            <a href="img/gallary/bimg6.jpg" data-lightbox="jru Online" data-title="JRU gallary"><img src="img/gallary/img6.jpg"></a>
+                        </div>
+                        <div class="more-view" align=center>
+                            <a href="#"><input type="button" value="View More"></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section id="footer">
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Attendence</li>
+                            <li>profile</li>
+                            <li>Leave</li>
+                            <li>Gallary</li>
+                            <li>Login</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <h2>Contact Us</h2>
+                        <ul>
+                            <li>Jharkhand Rai University,<br> Kamre, Ratu Road Ranchi - 835222</li>
+                            <li>Campus : Raja Ulatu,<br> Namkum, Ranchi - 834010</li>
+                            <li>visit : jru.edu.in</li>
+                            <li>Email: Info@Jru.Edu.In</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <h2>Call Us</h2>
+                        <ul>
+                            <li>Admission Helpline : 1800 120 2546</li>
+                            <li>Reception : 9693296660</li>
+                            <li>Career Management Cell (T&P) : 9693296661</li>
+                            <li>Exam Cell : 9693296664</li>
+                            <li>Accounts Deptt.: 9693296667</li>
+                            <li>Public Relation Officer: 7979899524</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="jru-img" align=center>
+                        <h2>JRU- Campus</h2>
+                        <img src="img/jru.jpg">
+                    </div>
+                </div>
+                <div class="col-md-12 copyright">
+                    <p><i class="fa fa-heart"></i> 2020 Copyright: jruonline.com</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1199,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[600,1],
+        pagination: false,
+        navigation:true,
+        navigationText:["",""],
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
+     </script>
+    </body>
+</html>
